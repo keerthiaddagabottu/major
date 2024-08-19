@@ -1,0 +1,17 @@
+1)joseph is learning a digital logic subject which will be 
+
+n=int(input())
+b=bin(n)
+print(type(b))
+print(b)
+b=b[2:]
+c=""
+for i in b:
+    if i=='1':
+        c=c+'0'
+    else:
+        c=c+'1'
+print(c)
+ans=int(c,2)#binary to decimal
+print(ans)
+    
